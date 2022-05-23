@@ -1,5 +1,8 @@
 install requirements: 
-`pip install -r requirements.txt`
+pip install -r requirements.txt
+
+create migration:
+'python manage.py migrate'
 
 run project:
 `python manage.py runserver`
